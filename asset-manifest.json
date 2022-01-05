@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anons-app/static/css/main.310fdc9c.chunk.css",
+    "main.js": "/anons-app/static/js/main.fba829f3.chunk.js",
+    "main.js.map": "/anons-app/static/js/main.fba829f3.chunk.js.map",
+    "runtime-main.js": "/anons-app/static/js/runtime-main.d5c94a49.js",
+    "runtime-main.js.map": "/anons-app/static/js/runtime-main.d5c94a49.js.map",
+    "static/js/2.25610e12.chunk.js": "/anons-app/static/js/2.25610e12.chunk.js",
+    "static/js/2.25610e12.chunk.js.map": "/anons-app/static/js/2.25610e12.chunk.js.map",
+    "index.html": "/anons-app/index.html",
+    "static/css/main.310fdc9c.chunk.css.map": "/anons-app/static/css/main.310fdc9c.chunk.css.map",
+    "static/js/2.25610e12.chunk.js.LICENSE.txt": "/anons-app/static/js/2.25610e12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5c94a49.js",
+    "static/js/2.25610e12.chunk.js",
+    "static/css/main.310fdc9c.chunk.css",
+    "static/js/main.fba829f3.chunk.js"
+  ]
+}
