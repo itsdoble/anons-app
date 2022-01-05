@@ -1,13 +1,66 @@
-body {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  text-align: center;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.formContainer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.formContainer > h2 {
+  max-width: 400px;
+}
+.actualForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.actualForm > label {
+  margin: 0 0 10px 0;
+}
+.actualForm > input {
+  text-align:left;
+  text-indent: 1%;
+  width: 300px;
+  height: 20px;
+  margin: 0 0 5px 0;
+}
+.actualForm > button {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
