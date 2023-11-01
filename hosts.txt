@@ -1,0 +1,4 @@
+127.0.0.1 authserver.mojang.com
+127.0.0.1 api.mojang.com
+127.0.0.1 sessionserver.mojang.com
+127.0.0.1 api.minecraftservices.com
